@@ -2,8 +2,10 @@ services:
   - type: web
     name: image-processor-api
     env: python
+    region: frankfurt  # اختر Frankfurt لأنه أقرب للشرق الأوسط
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    startCommand: python app.py
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.0
+        value: 3.10.12
+    plan: free

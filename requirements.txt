@@ -1,6 +1,8 @@
-fastapi
-uvicorn
-python-multipart
-rembg
-Pillow
-numpy
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+rembg==2.0.50
+Pillow==10.1.0
+numpy==1.24.3
+psutil==5.9.6
+onnxruntime==1.16.3
