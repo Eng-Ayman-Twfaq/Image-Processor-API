@@ -1,8 +1,6 @@
 fastapi
-uvicorn[standard]
-python-multipart
+uvicorn
 rembg
-Pillow
-numpy
-psutil
+pillow
+python-multipart
 onnxruntime
